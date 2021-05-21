@@ -20,6 +20,8 @@
 #### tracking data that isn't easy to compare otherwise.
 ## 1.7 FRAME PREPARATION
 #### In order to feed the data into our neural network, it must be reshaped in such a way that input must be time series for atleast 0.4 sec to predict the action.  
+![image](https://user-images.githubusercontent.com/76246283/119127787-5de05680-ba52-11eb-949c-a93a79cab995.png)
+
 ## 1.8 SPLITTING OF TRAINING AND TESTING DATA
 #### Before we fit our data in our model, splitting training (80%) and testing data (20%) is done to evaluate the results.
 #### Training set—a subset to train a model.
@@ -36,11 +38,18 @@
 #### Loss function used- sparse categorical crossentropy 
 
 #### Droput layer is used to reduce the overfit
-![image](https://user-images.githubusercontent.com/76246283/119127448-f75b3880-ba51-11eb-976f-9a8d5529566c.png)
+![image](https://user-images.githubusercontent.com/76246283/119127824-6a64af00-ba52-11eb-97e5-b11616467d06.png)
+
+
 
 ## MODEL ACCURACY AND LOSS
 #### If we plot the evolution of the two error scores as training sets change, we end up with two curves. These are called learning curves. In a nutshell, a learning
 #### curve shows how error changes as the weight increases. It is plotted for 10 epochs.
+![image](https://user-images.githubusercontent.com/76246283/119127717-486b2c80-ba52-11eb-8fcc-d01cb7c0af4d.png)
+![image](https://user-images.githubusercontent.com/76246283/119127731-4dc87700-ba52-11eb-948b-260b1208c489.png)
+
 ## CONFUSION MATRIX
 #### A confusion matrix is a table that is often used to describe the performance of a classification model on a set of test data for which the true values are known.
 #### The confusion matrix itself is relatively simple to understand, but the related terminology can be confusing.
+![image](https://user-images.githubusercontent.com/76246283/119127665-38ebe380-ba52-11eb-9497-1e596318d85e.png)
+
