@@ -44,7 +44,7 @@
 
 ## MODEL ACCURACY AND LOSS
 #### If we plot the evolution of the two error scores as training sets change, we end up with two curves. These are called learning curves. In a nutshell, a learning
-#### curve shows how error changes as the weight increases. It is plotted for 10 epochs.
+#### curve shows how error changes as the weight increases. It is plotted for 20 epochs.
 ![image](https://user-images.githubusercontent.com/76246283/119127717-486b2c80-ba52-11eb-8fcc-d01cb7c0af4d.png)
 ![image](https://user-images.githubusercontent.com/76246283/119127731-4dc87700-ba52-11eb-948b-260b1208c489.png)
 
